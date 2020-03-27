@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#myInput {
+  background-image: url('/images/search.png');
+  background-repeat: no-repeat;
+  width: 25%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.footer {
+	background-color: #f8f8f8;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
