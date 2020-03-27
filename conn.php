@@ -1,8 +1,8 @@
 <?php
 	$servername = "localhost";
-	$username = "schosting_adminZack";
-	$password = "Pap3rtra1lzgoal!";
-	$dbname = "schosting_db_modal";
+	$username = "redacted";
+	$password = "redacted";
+	$dbname = "redacted";
 	
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 
