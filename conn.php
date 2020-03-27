@@ -6,10 +6,11 @@
 	
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 
-	if(!$conn){
-
-		die("Error: Failed to connect to database!");
-
+	if (mysqli_query($conn, $sql)) {
+		header("Location: index.php");
+	} else {
+		echo "Error: " . mysqli_errno($conn) . "<br/>" . mysqli_error($conn) . "<br/>" . "<br/>";
+		echo $sql;
 	}
 
 ?>
